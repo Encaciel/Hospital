@@ -14,7 +14,10 @@
 
 #PROBLEMAS!!!
 #git pull origin branchname --allow-unrelated-histories
-
+#Gerenciador de Credenciais do Windows para apagar credencial do GitHub
 #git config --global --unset user.name  Em terminal, remover conta do local
 #git config --global --unset user.email
 #git config --global --list
+
+#cria pasta, com botão direito (git bash), no cdm:
+    #git clone https://github.com/jpmoraes/python_basic.git    Em cmd, para clonar do remote para o local
