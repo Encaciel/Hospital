@@ -3,7 +3,7 @@ import Usuario as us
 nome = input("Informe o nome do usuário: ")
 
 dataNas = input("Informe a data de nascimento: ").strip()
-dd = dataNas[:2]
+dd = dataNas[0:2]
 mm = dataNas[3:5]
 aaaa = dataNas[6:]
 dataNasf = "/".join([dd, mm, aaaa])
